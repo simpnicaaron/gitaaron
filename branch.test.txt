@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 branch commit2
 master test
+=======
+test1
+>>>>>>> dev
