@@ -1,0 +1,27 @@
+{
+  "name": "RAT_Tool",
+  "version": "1.0.0",
+  "description": "RAT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "aws-sdk": "^2.668.0",
+    "crypto": "^1.0.1",
+    "current-git-branch": "^1.1.0",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "moment": "^2.23.0",
+    "prompt": "^1.0.0",
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
+    "uuid": "^3.3.2",
+    "pino": "^6.7.0",
+    "mysql": "^2.18.1"
+  }
+}
