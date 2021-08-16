@@ -20,6 +20,9 @@ const PACKET_HEADER_CID_OFFSET = 1;
 const CID = 0;
 var xorKey;
 const print = console.log
+
+
+
 // var devices = [
 
 //     {
@@ -553,6 +556,7 @@ function fakeGw() {
             var keepalive = {
                 uid: GW_UID,
                 keepalive: true
+                
             };
             xorSendData(keepalive, true, client);
             // destroy_client(client);
@@ -646,5 +650,17 @@ function fakeGw() {
 
 }
 
+
 print("start fake gw");
 fakeGw();
+
+
+var timesRun = 0;
+var interval = setInterval(function(){
+timesRun += 1;
+if(timesRun === 60){
+clearInterval(interval);
+}
+print("socket closed");
+process.exit(0);
+}, 10000); //10s後結束code
