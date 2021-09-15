@@ -32,5 +32,5 @@
 
 - fakegw_tls.js
 
-  建立一個測試用GW，搭配 `authorize_post.js` 使用，使用前須使用 `npm i`，來下載必備模組，成功啟用後每30s會發送一次keep live。
+  建立一個測試用GW，搭配 `authorize_post.js` 使用，使用前須使用 `npm i`，來下載必備模組，並且將test_gw資料夾放在根目錄下，成功啟用後每30s會發送一次keep live。
 
